@@ -24,7 +24,7 @@ window.addEventListener('scroll', function(ev) {
 
 if(window.innerWidth < 500){
   $('.item').text('Abigail Meyer');
-  $('.wrapper').top('10%');
+  $('.wrapper').css('top','10%');
 }
 
 
