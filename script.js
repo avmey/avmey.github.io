@@ -22,6 +22,10 @@ window.addEventListener('scroll', function(ev) {
   check();
 });
 
+if(window.innerWidth < 500){
+  $('.item').text('Abigail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meyer')
+}
+
 
 /*
 ios bug
