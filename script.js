@@ -23,7 +23,7 @@ window.addEventListener('scroll', function(ev) {
 });
 
 if(window.innerWidth < 500){
-  $('.item').text('Abigail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meyer')
+  $('.item').text('Abigail                                Meyer')
 }
 
 
