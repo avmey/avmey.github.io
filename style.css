@@ -202,7 +202,6 @@ span {
 .cover {
   height: 80vh;
   width: 100%;
-  margin-top: -10vh;
   opacity: 0.9
 }
 
@@ -215,11 +214,11 @@ span {
 }
 
 .path:nth-of-type(1) {
-  animation-delay: 3.5s;
+  animation-delay: 1.5s;
 }
 
 .path:nth-of-type(2) {
-  animation-delay: 4.5s;
+  animation-delay: 2.5s;
 }
 
 @keyframes paint {
@@ -234,12 +233,12 @@ span {
 
 .wrapper {
   padding: 10px;
-  font-size: 25px;
+  font-size: 30px;
   margin: 0 auto;
-  width: 400px;
+  width: 315px;
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

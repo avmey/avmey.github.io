@@ -26,6 +26,7 @@ if(window.innerWidth < 500){
   $('.item').text('Abigail Meyer');
   $('.wrapper').css('top','10%');
   $('.wrapper').css('width','250px');
+  $('.wrapper').css('font-size','25px');
 }
 
 
