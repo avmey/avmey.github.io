@@ -143,13 +143,13 @@ body {
   background: #e8a87c;
 }
 .section:nth-child(5) {
-  background: #7EC3B0;
-}
-.section:nth-child(6) {
   background: #C38D9E;
 }
+.section:nth-child(6) {
+  background: #ABCAB8;
+}
 .section:nth-child(7) {
-  background: #DBAF87;
+  background: #e8a87c;
 }
 
 .a {
