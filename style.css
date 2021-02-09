@@ -7,14 +7,17 @@
 }
 
 h1, h2, h3, h4, h5, h6, a, p, span, ul, li {
-  padding-bottom: 0.714em !important;
-  padding-top: 0.714em !important;
+  padding: 0.714em !important;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: 400;
   color: #ffffff;
   font-weight: bold;
   text-align: center;
+}
+
+.show.a span{
+  text-decoration: overline;
 }
 
 p{
