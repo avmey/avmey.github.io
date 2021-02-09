@@ -125,6 +125,10 @@ body {
   position: absolute;
 }
 
+.embed{
+  width: 30%;
+}
+
 .section {
   width: 100%;
   padding: 70px 0;
@@ -134,25 +138,25 @@ body {
   overflow: auto;
 }
 .section:nth-child(1) {
-  background: #ABCAB8;
+  background: #B1C6C9;
 }
 .section:nth-child(2) {
-  background: #E27D60;
+  background: #DBAE1D;
 }
 .section:nth-child(3) {
-  background: #86CDCB;
+  background: #BA8545;
 }
 .section:nth-child(4) {
-  background: #e8a87c;
+  background: #7D9D95;
 }
 .section:nth-child(5) {
-  background: #C38D9E;
+  background: #B1C6C9;
 }
 .section:nth-child(6) {
-  background: #ABCAB8;
+  background: #DBAE1D;
 }
 .section:nth-child(7) {
-  background: #e8a87c;
+  background: #7D9D95;
 }
 
 .a {
