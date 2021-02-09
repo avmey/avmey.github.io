@@ -28,6 +28,8 @@ if(window.innerWidth < 500){
   $('.wrapper').css('width','250px');
   $('.wrapper').css('font-size','25px');
   $('.embed').css('width','60%');
+  $('.wallenberg').css('float','center');
+  $('.cover').css('margin-top','-10%');
 }
 
 
