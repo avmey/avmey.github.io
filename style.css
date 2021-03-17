@@ -25,6 +25,19 @@ p{
   font-weight: normal;
 }
 
+ul{
+  list-style-type: circle;
+  margin-left:150px;
+  margin-right:150px;
+  text-align: left;
+}
+
+li{
+  text-transform: none;
+  font-weight: normal;
+
+}
+
 footer {
   bottom: 0;
   right: 0;
@@ -156,7 +169,14 @@ body {
   background: #DBAE1D;
 }
 .section:nth-child(7) {
+  background: #DBB8A6;
+}
+.section:nth-child(8) {
   background: #7D9D95;
+}
+
+.collapse {
+  display: none;
 }
 
 .a {
@@ -363,6 +383,4 @@ span {
   visibility: visible;
   opacity: 1;
 }
-
-
 

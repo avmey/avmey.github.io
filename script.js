@@ -134,44 +134,14 @@ $(".close, .mask").on("click", function(){
   closeModal();
 });
 
-$("#mondrian-link").on("click", function(){
-  $('#research-header').text('Mondrian');
-  $('.mondrian').show();
-  $(".lakeeffect").hide();
-  $(".northwoods").hide();
-});
+$("#showtrigger").click(function(){
+   $(".collapse").show();
+   $("#showtrigger").hide();
+   $("#hidetrigger").show();
+ });
 
-$("#lakeeffect-link").on("click", function(){
-  $('#research-header').text('NOAA/GLERL Lake-Effect Snow Modeling');
-  $('.mondrian').hide();
-  $(".lakeeffect").show();
-  $(".northwoods").hide();
-});
-
-$("#northwoods-link").on("click", function(){
-  $('#research-header').text('Northwoods Survey');
-  $('.mondrian').hide();
-  $(".lakeeffect").hide();
-  $(".northwoods").show();
-});
-
-$("#rancocas-link").on("click", function(){
-  $('#volunteering-header').text('Rancocas Creek Farm');
-  $('.rancocas').show();
-  $(".utk").hide();
-  $(".ala").hide();
-});
-
-$("#utk-link").on("click", function(){
-  $('#volunteering-header').text('United Technologies for Kids');
-  $('.rancocas').hide();
-  $(".utk").show();
-  $(".ala").hide();
-});
-
-$("#ala-link").on("click", function(){
-  $('#volunteering-header').text('African Leadership Academy Summer Engineering Academy');
-  $('.rancocas').hide();
-  $(".utk").hide();
-  $(".ala").show();
-});
+$("#hidetrigger").click(function(){
+   $(".collapse").hide();
+   $("#showtrigger").show();
+   $("#hidetrigger").hide();
+ });
