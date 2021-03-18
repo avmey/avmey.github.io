@@ -27,15 +27,14 @@ p{
 
 ul{
   list-style-type: circle;
-  margin-left:150px;
-  margin-right:150px;
+  margin-left:10%;
+  margin-right:10%;
   text-align: left;
 }
 
 li{
   text-transform: none;
   font-weight: normal;
-
 }
 
 footer {
