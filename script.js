@@ -7,15 +7,11 @@ var footer = document.getElementById("target")
 var d2=  document.getElementById("Chameleon").children.length
 
 function check (){
-  for (i = 0; i < d2; i++)
-{
-
-   if (dl[i].getBoundingClientRect().top <= footer.getBoundingClientRect().top ){
-     
-  footer.style.backgroundColor =window.getComputedStyle(dl[i], null).getPropertyValue("background-color");   
-}
-}
-
+  for (i = 0; i < d2; i++) {
+    if (dl[i].getBoundingClientRect().top <= footer.getBoundingClientRect().top ){
+      footer.style.backgroundColor =window.getComputedStyle(dl[i], null).getPropertyValue("background-color");   
+    }
+  }
 }
 
 window.addEventListener('scroll', function(ev) {
@@ -49,11 +45,9 @@ function iOS() {
 
   if (!!navigator.platform) {
     while (iDevices.length) {
-      if (navigator.platform === iDevices.pop())
-      
-      { 
+      if (navigator.platform === iDevices.pop()){ 
         
-       bug.style.visibility = 'visible';
+        bug.style.visibility = 'visible';
 
         return true;
       
