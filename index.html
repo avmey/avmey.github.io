@@ -10,6 +10,22 @@
 </head>
 <body>
 
+<nav class="toc">
+	<ul>
+		<li><a href="#home">Home</a></li>
+		<li><a href="#education">Education</a></li>
+		<li><a href="#trench">TrEnCh</a></li>
+		<li><a href="#wallenberg">Wallenberg</a></li>
+		<li><a href="#dronework">GIS & Drone</a></li>
+		<li><a href="#skills">Skills</a></li>
+		<li><a href="#research">Research</a></li>
+		<li><a href="#volunteer">Volunteering</a></li>
+	</ul>
+  <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <path stroke="#fff" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
+  </svg>
+</nav>
+
 <!-- partial:index.partial.html -->
 <div class="artboard" id="Chameleon">
   <div class="section" id="home">
@@ -1266,8 +1282,8 @@
 
   <!-- Page #5 -->
     <div class="section" id="dronework">
-  	<h1>GIS and Dronework</h1>
-  	<h3>Mavic 2 Pro Landscape Capture</h3>
+  	<h1 id="dronework">GIS and Dronework</h1>
+  	<h3 id="film">Mavic 2 Pro Landscape Capture</h3>
   	<iframe width="640" height="360" src="https://www.youtube.com/embed/v9ieI3-0NMA?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   	<h4><a class="show a" target="_blank" id="showtrigger"><span>Show other videos</span></a>
   		<a class="show a" target="_blank" id="hidetrigger" style="display:none;"><span>Hide other videos</span></a>
@@ -1282,7 +1298,7 @@
   	<br>
   	<br>
   	<br>
-  	<h3>Mavic 2 Pro 3D Modeling</h3>
+  	<h3 id="3d">Mavic 2 Pro 3D Modeling</h3>
   	<div class="sketchfab-embed-wrapper"><iframe title="Valley View" width="640" height="360" src="https://sketchfab.com/models/e63958d30e9c471f80ebfe196c079e09/embed"></iframe></div>
 
 
@@ -1290,7 +1306,7 @@
   	<br>
   	<br>
   	<br>
-  	<h3>Geographic Information Systems Map Making</h3>
+  	<h3 id="gis">Geographic Information Systems Map Making</h3>
   	<br>
   	<a target="_blank"><img src="maps/Gable_Mtn_Viewsheds.png" height="235px"/></a>
   	<a target="_blank"><embed src="maps/Glacier_Trails.pdf" height="235px"/></a>
@@ -1321,7 +1337,7 @@
 <div class="section" id="research">
   	<h1>Research</h1>
 
-  	<h3><a class="show a" target="_blank" href="https://www.michiganseagrant.org/student-opportunities/michigan-sea-grant-environmental-internship/"><span>Mondrian</span></a></h3>
+  	<h3 id="mondrian"><a class="show a" target="_blank" href="https://www.michiganseagrant.org/student-opportunities/michigan-sea-grant-environmental-internship/"><span>Mondrian</span></a></h3>
 	<p><img class="embed" src="images/misg.jpg"></span></a></p>
 	<p><b>Environmental modelling of native wetland plants to build invasion resistance</b></p>
 	<p>Research with Dr. Bill Currie, University of Michigan SEAS. Funded by Michigan Sea Grant Environmental Internship 2019 & 2020</p>
@@ -1332,7 +1348,7 @@
 	<br>
 
 
-	<h3><a class="show a" target="_blank" href="https://noaaglerl.blog/2018/12/06/improving-lake-effect-snow-forecasts-by-making-models-talk-to-each-other/"><span>NOAA/GLERL Lake-Effect Snow Modeling</span></a></h3>
+	<h3 id="lake-effect"><a class="show a" target="_blank" href="https://noaaglerl.blog/2018/12/06/improving-lake-effect-snow-forecasts-by-making-models-talk-to-each-other/"><span>NOAA/GLERL Lake-Effect Snow Modeling</span></a></h3>
 	<p><img class="embed" src="images/lakeeffect.png"></span></a></p>
 	<p>Research with Dr. Ayumi Fujisaki-Manome, University of Michigan CLaSP and NOAA GLERL. Summer 2019, Ann Arbor, MI</p>
   	<p>The Great Lakes Coastal Forecasting System feeds into many areas of the local weather report of Michigan: precipitation, wind, and snow. Until a recent grant, it did not couple an atmospheric and land model with a dynamic Great Lakes water model. This was a significant failure when the model was forecasting lake-effect snow, a weather artifact heavily influenced by lake dynamics. NOAA and GLERL researchers have developed a new coupled model to forecast Michigan weather.</p>
@@ -1342,7 +1358,7 @@
 	<br>
 
 
-	<h3><a class="show a" target="_blank" href="https://sites.google.com/umich.edu/fischerresearchgroup/home?authuser=0"><span>Northwoods Survey</span></a></h3>
+	<h3 id="northwoods"><a class="show a" target="_blank" href="https://sites.google.com/umich.edu/fischerresearchgroup/home?authuser=0"><span>Northwoods Survey</span></a></h3>
 	<p><img class="embed" src="images/northwoods.png"></span></a></p>
 	<p>Research with Dr. Paige Fischer, University of Michigan SEAS. 2019, Ann Arbor, MI</p>
   	<p>I competed data entry and data analysis for the Northwoods Survey. The survey data was compiled in Excel. The data analysis was completed in Python 3.6. The survey sought to determine management strategies, climate impacts, and hardships noted by small woodlands owners in the Northwoods region. As well, I assisted in the editing of a grant proposal and tenure portfolio. I also assisted in compiling research for a literature review of Chilean forest management by small forested land owners.</p>
@@ -1356,21 +1372,22 @@
   <div class="section" id="volunteer">
   	<h1>Volunteering</h1>
 
-  	<h3><a class="show a" target="_blank" href="https://pinelandsalliance.org/our-work/rancocas-creek-farm/"><span>Rancocas Creek Farm</span></a></h3>
+  	<h3 id="farm"><a class="show a" target="_blank" href="https://pinelandsalliance.org/our-work/rancocas-creek-farm/"><span>Rancocas Creek Farm</span></a></h3>
   	<iframe title="vimeo-player" src="https://player.vimeo.com/video/468667489" width="640" height="360" frameborder="0" allowfullscreen></iframe>
   	<p>Volunteer at RCF in its first season, Summer and Fall of 2020. Medford, NJ.</p>
 
   	<p>Rancocas Creek Farm is a chemical-free, regenerative farm established through donation of 72 acres previously in monoculture soybean. It is run by Pinelands Preservation Alliance (PPA), a volunteer-driven, nonprofit organization committed to the ongoing protection of the New Jersey Pinelands. The project has the following goals:</p>
-  	<ul><li>Grow Chemical-Free Produce: RCF will not use synthetic chemical herbicides, insecticides, fungicides or fertilizers to grow these foods.  Our goal is to have the farm be a healthy component of the larger ecosystem.</li>
-  		<li>Manage Stormwater: The farm has historically had flooding issues which at times have caused flooding in Vincentown and the Rancocas Creek.   To better manage stormwater, they have implemented planted over 1,100 native trees and shrubs in the lower, flood-prone areas of the farm and have been adding generous amounts of mulch to these zones, many acres reserved for permanent cover crops such as rye, buckwheat, oats, peas, sorghum-sudangrass, oilseed radish, clover, vetch, and reserved space for native grassland areas.</li>
-  		<li>Promote Environmental Stewardship: RCF utilizes pizza boxes as mulch which has diverted over 10,000 pizza boxes out of landfills in Burlington County (Project Pizza Box).</li>
-  		<li>Provide food: The mission of all farms. RCF produce goes to members of the farm CSA, farm markets and restaurants, to the caterer for weddings and events that take place in our barn, and to people in need through partners like NJ Farmers Against Hunger and the Trenton Area Soup kitchen.</li>
+  	<ul>
+  		<li><p>Grow Chemical-Free Produce: RCF will not use synthetic chemical herbicides, insecticides, fungicides or fertilizers to grow these foods.  Our goal is to have the farm be a healthy component of the larger ecosystem.</p></li>
+  		<li><p>Manage Stormwater: The farm has historically had flooding issues which at times have caused flooding in Vincentown and the Rancocas Creek.   To better manage stormwater, they have implemented planted over 1,100 native trees and shrubs in the lower, flood-prone areas of the farm and have been adding generous amounts of mulch to these zones, many acres reserved for permanent cover crops such as rye, buckwheat, oats, peas, sorghum-sudangrass, oilseed radish, clover, vetch, and reserved space for native grassland areas.</p></li>
+  		<li><p>Promote Environmental Stewardship: RCF utilizes pizza boxes as mulch which has diverted over 10,000 pizza boxes out of landfills in Burlington County (Project Pizza Box).</p></li>
+  		<li><p>Provide food: The mission of all farms. RCF produce goes to members of the farm CSA, farm markets and restaurants, to the caterer for weddings and events that take place in our barn, and to people in need through partners like NJ Farmers Against Hunger and the Trenton Area Soup kitchen.</p></li>
   	</ul>
 	<br>
 	<br>
 	<br>
 
-	<h3><a class="show a" target="_blank" href="https://www.utk.technology/en/home/"><span>United Technologies for Kids</span></a></h3>
+	<h3 id="utk"><a class="show a" target="_blank" href="https://www.utk.technology/en/home/"><span>United Technologies for Kids</span></a></h3>
 	<p><img class="embed" src="images/utk.jpg"></span></a></p>
   	<p>During May and June of 2019, I taught a STEM class in Lima, Peru with UTK. United Technologies for Kids (UTK) is a non-profit-startup that promotes STEM education in high schools in developing countries and low-income societies. They work as a platform to transfer knowledge and technology from US universities to schools through  partnerships with student organizations from UC Berkeley, MIT, and the University of Michigan.</p>
 	<p>My co-teacher and I taught for three weeks the basics of electricity, sustainable and socially-minded design, Arduino, CAD, and 3D printing at St. George's.</p>
@@ -1380,7 +1397,7 @@
 	<br>
 
 
-	<h3><a class="show a" target="_blank" href="https://www.utk.technology/en/home/"><span>African Leadership Academy</span></a></h3>
+	<h3 id="ala"><a class="show a" target="_blank" href="https://www.utk.technology/en/home/"><span>African Leadership Academy</span></a></h3>
 	<p><img class="embed" src="images/ala.jpg"></span></a></p>
   	<p>In June 2020, I worked with the African Leadership Academy's Summer Engineering Academy as a mentor. SEA was intended to run in South Africa, but the COVID-19 pandemic forced remote participation from the one-week program. Mentors and the leadership came from across the globe to remotely assist, and the students attended from Nigeria and Algeria. I mentored a group of 3 students on an engineering design challenge focused on the COVID-19 pandemic.</p>
 	<br>
