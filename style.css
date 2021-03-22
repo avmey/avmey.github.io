@@ -4,6 +4,7 @@
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6, a, p, span, ul, li {
@@ -382,4 +383,6 @@ span {
   visibility: visible;
   opacity: 1;
 }
+
+
 
