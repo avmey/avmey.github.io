@@ -177,6 +177,9 @@ body {
 .section:nth-child(8) {
   background: #7D9D95;
 }
+.section:nth-child(9) {
+  background: #B1C6C9;
+}
 
 .collapse {
   display: none;
@@ -269,7 +272,7 @@ span {
   text-align: center;
   position: absolute;
   top: 15%;
-  left: 55%;
+  left: 56%;
   transform: translate(-50%, -50%);
 }
 .wrapper .item {
