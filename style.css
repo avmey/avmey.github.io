@@ -103,6 +103,13 @@ footer .content .top .fa-instagram:hover {
   -webkit-transform: scale(1.4);
           transform: scale(1.4);
 }
+footer .content .top .fa-youtube:hover {
+  -webkit-transition: 350ms ease-in-out;
+  transition: 350ms ease-in-out;
+  color: #FF0101;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
 footer .content .top a {
   padding: 10px;
 }
