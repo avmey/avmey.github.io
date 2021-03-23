@@ -89,6 +89,20 @@ footer .content .top .fa-github:hover {
   -webkit-transform: scale(1.4);
           transform: scale(1.4);
 }
+footer .content .top .fa-cube:hover {
+  -webkit-transition: 350ms ease-in-out;
+  transition: 350ms ease-in-out;
+  color: #1CABD8;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+footer .content .top .fa-instagram:hover {
+  -webkit-transition: 350ms ease-in-out;
+  transition: 350ms ease-in-out;
+  color: #EC612E;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
 footer .content .top a {
   padding: 10px;
 }
