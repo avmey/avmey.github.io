@@ -27,6 +27,7 @@ if(window.innerWidth < 500){
   $('.wallenberg').css('float','center');
   $('.cover').css('margin-top','-10%');
   $('.toc').hide();
+  $('.maps').hide();
   $('.section').css('padding-left','0%');
   $('#target').css('padding-left','0%');
   $('.wrapper').css('left','50%');
