@@ -274,8 +274,13 @@ function sync() {
 
 }
 
-
-var layer = new L.stamenTileLayer("watercolor");
+var watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
+    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+   subdomains: 'abcd',
+   minZoom: 0,
+   maxZoom: 20,
+   ext: 'png'
+});
 var map = new L.Map("map", {
     center: new L.LatLng(37.7, -50),
     zoomControl: false,
@@ -284,7 +289,7 @@ var map = new L.Map("map", {
 L.control.zoom({
      position:'topleft'
 }).addTo(map);
-map.addLayer(layer);
+map.addLayer(watercolor);
 map.scrollWheelZoom.disable();
 var points = [
     ["P1", 60.718170, -46.031985, "#wallenberg"],
