@@ -275,7 +275,7 @@ function sync() {
 }
 
 
-var layer = new L.StamenTileLayer("watercolor");
+var layer = new L.stamenTileLayer("watercolor");
 var map = new L.Map("map", {
     center: new L.LatLng(37.7, -50),
     zoomControl: false,
