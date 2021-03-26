@@ -273,3 +273,40 @@ function sync() {
   lastPathEnd = pathEnd;
 
 }
+
+
+var layer = new L.StamenTileLayer("watercolor");
+var map = new L.Map("map", {
+    center: new L.LatLng(37.7, 0),
+    zoomControl: false,
+    zoom: 2
+});
+L.control.zoom({
+     position:'topleft'
+}).addTo(map);
+map.addLayer(layer);
+map.scrollWheelZoom.disable();
+var points = [
+    ["P1", 60.718170, -46.031985, "#wallenberg"],
+    ["P2", 42.279396, -83.747991, "#education"],
+    ["P3", 47.654970, -122.302742, "#trench"],
+    ["P4", -12.209178, -77.002074, "#utk"],
+    ["P5", -26.074584, 27.915766, "#ala"],
+    ["P6", 39.940280, -74.747435, "#farm"]
+];
+var marker = [];
+var i;
+for (i = 0; i < points.length; i++) {
+    marker[i] = new L.Marker([points[i][1], points[i][2]], {
+        win_url: points[i][3]
+    });
+    marker[i].addTo(map);
+    marker[i].on('click', onClick);
+};
+
+function onClick(e) {
+  location.hash = this.options.win_url;
+}
+
+
+
