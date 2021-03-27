@@ -117,9 +117,7 @@ async function write(text) {
   }
 };
 
-$(document).ready(function() {
-    writingAll('item', 'data-text');
-});
+writingAll('item', 'data-text');
 
 
 // Click function for show the Modal
