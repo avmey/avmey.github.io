@@ -33,7 +33,6 @@ if(window.innerWidth < 500){
   $('.wrapper').css('left','50%');
   $('body').css('font-size','12px');
   $('.bottom').hide();
-  $('#map').hide();
 }
 
 
