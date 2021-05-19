@@ -282,7 +282,7 @@ var watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercol
    ext: 'png'
 });
 var map = new L.Map("map", {
-    center: new L.LatLng(37.7, -50),
+    center: new L.LatLng(35.543299, -30),
     zoomControl: false,
     zoom: 2
 });
