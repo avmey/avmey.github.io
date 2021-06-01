@@ -24,6 +24,13 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 p{
   text-transform: none;
   font-weight: normal;
+
+}
+
+p a {
+  text-transform: none;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 ul{
@@ -292,7 +299,7 @@ span {
   padding: 10px;
   font-size: 30px;
   margin: 0 auto;
-  width: 315px;
+  width: 400px;
   text-align: center;
   position: absolute;
   top: 15%;

@@ -19,9 +19,9 @@ window.addEventListener('scroll', function(ev) {
 });
 
 if(window.innerWidth < 500){
-  $('.item').text('Abigail Meyer');
+  $('.item').text('Abigail Vath Meyer');
   $('.wrapper').css('top','10%');
-  $('.wrapper').css('width','250px');
+  $('.wrapper').css('width','325px');
   $('.wrapper').css('font-size','25px');
   $('.embed').css('width','60%');
   $('.wallenberg').css('float','center');
