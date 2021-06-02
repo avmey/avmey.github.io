@@ -188,7 +188,7 @@ body {
   background: #B1C6C9;
 }
 .section:nth-child(2) {
-  background: #DBAE1D;
+  background: #E6A228;
 }
 .section:nth-child(3) {
   background: #DBB8A6;
@@ -200,7 +200,7 @@ body {
   background: #B1C6C9;
 }
 .section:nth-child(6) {
-  background: #DBAE1D;
+  background: #E6A228;
 }
 .section:nth-child(7) {
   background: #DBB8A6;
@@ -516,7 +516,7 @@ span {
     height: 100%;
     width: 100%;
     z-index: 50;
-    background: #DBAE1D;
+    background: #E6A228;
     padding: 0px;
     letter-spacing: 0px;
 }
