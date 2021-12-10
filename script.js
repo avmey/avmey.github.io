@@ -27,8 +27,10 @@ if(window.innerWidth < 500){
   $('.wallenberg').css('float','center');
   $('.cover').css('margin-top','-10%');
   $('.toc').hide();
-  $('.maps').hide();
+  $('.map').hide();
   $('.section').css('padding-left','0%');
+  $('#currentwork').css('width','100%');
+  $('#currentwork').css('top','14%');
   $('#target').css('padding-left','0%');
   $('.wrapper').css('left','50%');
   $('body').css('font-size','12px');

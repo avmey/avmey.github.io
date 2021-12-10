@@ -22,14 +22,15 @@
 <nav class="toc">
 	<ul>
 		<li><a href="#home">Home</a></li>
-		<li><a href="#education">Education</a></li>
-		<li><a href="#trench">TrEnCh</a></li>
-		<li><a href="#wallenberg">Wallenberg</a></li>
-		<li><a href="#dronework">Dronework</a></li>
-		<li><a href="#skills">Skills</a></li>
-		<li><a href="#research">Research</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#trench">TrEnCh</a></li>
+    <li><a href="#wallenberg">Wallenberg</a></li>
+		<li><a href="#dronework">Photo & Film</a></li>
 		<li><a href="#farm">Farming</a></li>
-		<li><a href="#teach">Teaching</a></li>
+    <li><a href="#teach">Teaching</a></li>
+    <li><a href="#research">Research</a></li>
+    <li><a href="#education">Education</a></li>
+		<li><a href="#skills">Skills</a></li>
     <li><a href="#map">Map</a></li>
 	</ul>
   <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -1150,15 +1151,228 @@
   </g>
 </svg>
 
-	<!-- Page #1 -->
+
+	<!-- HOME -->
     <div class="wrapper">
       <div data-text></div>
       <span class="item">Abigail Vath Meyer</span>
     </div>
-    <p></p>
+    <p id="currentwork" style="top:18%; position:absolute; z-index:1000; text-align:center; padding-left: 12%; width:88%"><small>Current work: <u><a href="#trench">The Trench Project, University of Washington, Dept. of Biology</a></small></u></p> 
   </div>
 
-  <!-- Page #2 -->
+  <!-- ABOUT -->
+  <div class="section" id="about">
+  	<h1>About</h1>
+    <img class="about" src="images/me2.jpg" style="float:left;width:auto;height:60vh;padding:20px;">
+    
+    <p>Hi! I'm Abby. I grew up in the pine barrens of New Jersey, and I'm currently living in Ann Arbor, Michigan and working for the University of Washington. For work, I am a research analyst with the Buckley thermal ecology lab on the<u><a href="#trench">Trench Project.</a></u></p>
+    
+    <p>I have my B.S.E. from<u><a href="#education">University of Michigan</a></u>with a specialty in software engineering for ecology research. During my undergraduate, I worked with multiple<u><a href="#research">ecology labs on their research projects,</a></u>including wetland plant invasion modelling, lake-effect snow modelling, and a survey of forested landowners. Please feel free to review my<u><a href="#education">coursework and CV.</a></u></p>
+    
+    <p>I am passionate about sustainable agriculture and botany, and<u><a href="#farm">am voluntering at Nature and Nurture Seeds.</a></u></p>
+      
+    <p>I also spend time practicing<u><a href="#dronework">photography and videography, dronework and 3D modelling.</a></u> A subset of this work is viewable on my<u><a href="https://www.instagram.com/avmey/">Instagram.</a></u></p>
+
+    <p>I am the<u><a href="#wallenberg">2020 recipient of the Wallenberg Fellowship,</a></u>and will be departing for Qaqortoq, Greenland in March of 2022. I am so excited to work with the flora and land stewards of the arctic.</p>
+
+  </div>
+
+
+  <!-- TRENCH -->
+  <div class="section" id="trench">
+    <img src="images/trench.png" width="150px">
+    <h1>TrEnCh: Tools for TRanslating ENvironmental CHange into organismal responses</h2>
+    <p>Our goal is to build case studies of how animals are impacted by climate change to improve our approach to climate change biology education, policy, and research.</p>
+    <p></p>
+    <p>I am a research analyst with the Trench Project, a research group in the Department of Biology, University of Washington. My specialty is software engineering for ecology. My main work is with Trench-IR. I have also assisted with Trench-Ed and the TrenchR Modules.</p>
+
+    <!-- Modal #1 -->
+    <h3><a class="show a" aria-haspopup="true"><span>Trench-IR</span></a>
+	<section class="mask" role="dialog"></section>
+	<section class="modal" role="alert">
+	  <a class="close" role="button"></a>
+	  <section class="modal__content">
+	  	<a class="show a" target="_blank" href="https://trench-ir.azurewebsites.net/"><span><img src="images/trenchir.png" width="100px"></span></a>
+	    <p>Lead Developer of TrEnCh-IR. TrEnCh-IR is a repository and set of analysis tools for FLIR infrared images. This repository is intended to advance applications of thermal images in understanding how organisms interact with their thermal environments and resultant patterns of thermal stress. TrEnCh-IR is focused on 1) offering free, unlimited conversion of FLIR jpgs to access raw thermal images, embedded images, thermal parameters, and palettes, 2) maintaining an easy-access, diverse thermal image repository for use in education, research, and all other capacities, and 3) educating on how organisms respond to their thermal environment. </p>
+      <p>TrEnCh-IR It is built on Azure with Block Blob Storage, Node.js, Bootstrap, {{mustache}}, and exiftool. TrEnCh-IR services are in collaboration with ThermImageR and the Thermal Ecology Group.</p>
+		  <a class="show a" target="_blank" href="https://trench-ir.azurewebsites.net/"><span>Go to TrEnCh-IR</span></a>
+	  </section>
+	</section>
+
+	<span>•</span>
+
+	<!-- Modal #2 -->
+	<a class="show a" aria-haspopup="true"><span>Trench-Ed</span></a>
+	<section class="mask" role="dialog"></section>
+	<section class="modal" role="alert">
+	  <a class="close" role="button"></a>
+	  <section class="modal__content">
+	    <a class="show a" target="_blank" href="https://trench-ed.github.io/#"><span><img src="images/trenched.png" width="100px"></span></a>
+	    <p>TrEnCh-Ed is the educational branch of The TrEnCh Project, which builds computational and visualization tools to Translate Environmental Change into organismal responses. TrEnCh-Ed is designed to be utilized in high school science classrooms, bringing the cutting edge science of university climate change research to the next generation of scientists.</p>
+      <p>I have worked with the Dr. Buckley to update the website and visualizations, add teacher resources and educational standards, create answer keys for lesson plans, and assist the readying of the curriculum for use in the 2020 school year. I co-created the <u><</u>Marine Range Shifts visualization, and have edited all other visualizations.</p>
+
+		<a class="show a" target="_blank" href="https://trench-ed.github.io/#"><span>Go to TrEnCh-Ed</span></a>
+	  </section>
+	</section>
+
+	<span>•</span>
+
+	<!-- Modal #3 -->
+	<a class="show a" aria-haspopup="true"><span>TrenchR Modules</span></a>
+	<section class="mask" role="dialog"></section>
+	<section class="modal" role="alert">
+	  <a class="close" role="button"></a>
+	  <section class="modal__content">
+	    <a class="show a" target="_blank" href="https://bookdown.org/huckley/Physical_Processes_In_Ecosystems/"><span><img src="images/trenchr.png" width="100px"></span></a>
+	    <p>TrEnChR Modules is the educational guide to biophysical modeling using the TrenchR package. The modules are hosted on Bookdown with embedded R code to demonstrate the skills available in the R package. I helped edit the modules.</p>
+	    <a class="show a" target="_blank" href="https://bookdown.org/huckley/Physical_Processes_In_Ecosystems/"><span>Go to the TrEnChR Modules</span></a>
+	  </section>
+	</section>
+	</h3>
+
+
+  </div>
+
+  <!-- WALLENBERG -->
+  <div class="section" id="wallenberg">
+    <h1>The Wallenberg Fellowship</h1>
+	<img class="wallenberg" src="images/wallenberg.jpg" style="float:left;width:auto;height:60vh;padding:20px;">
+	<p>Beginning in February 2022, I will embark on my Wallenberg journey. I was fortunate in being selected for the<u><a href="https://lsa.umich.edu/onsf/wallenberg-fellowship.html">Wallenberg Fellowship,</a></u>which has granted me this unique opportunity.</p>
+  <p>Greenland was illuminated to me by my participation in the 2019 Greenland Expedition hosted by faculty from the Climate and Space Sciences and Engineering Department. On the expedition, we learned about remote fieldwork camping alongside an ice sheet and witnessed the warming climate pointed to by native Greenlanders and visiting scientists. I fell in love with the island of ice.</p>
+  <p>The Wallenberg Fellowship allows me to return and work alongside Greenlandic organizations for a full year. I will be over-wintering and experiencing winter and summer solstices in the southern region of the country. Qaqortoq, a town of three thousand and the fourth-largest town in Greenland, will be the main location of my work. While in the area, I will be traveling by boat through the fjords of the western coast and residing partially at Isortoq Reindeer Station.</p>
+  <p>While at the reindeer farm I will be working for my stay, including being both a helpful farm hand and an American contact. With my hopes of homesteading in the future, I will be thoroughly enthralled by and assisting with the day-to-day of living off the land in Greenland, including fishing, herding, gardening, food preparation, winter storage, and farm maintenance.</p>
+  <p>I will work with UNESCO World Heritage Kujataa and Innovation Southern Greenland in Qaqortoq. Greenland's intense remoteness leads to unfamiliarity with the deep history of the island and its inhabitants of 90% native Inuit Greenlanders. We hope to bridge this divide by creating 3-D models and online learning experiences of their key ruins and natural sites conserved by UNESCO Kujataa. I will also be conducting a vegetation survey of a nearby island, to allow monitoring of the arctic ecosystems.</p>
+
+	<!-- Modal #1 -->
+	<h3><a class="show a" aria-haspopup="true"><span>2019 Greenland Expedition</span></a>
+	<section class="mask" role="dialog"></section>
+	<section class="modal" role="alert">
+	  <a class="close" role="button"></a>
+	  <section class="modal__content">
+	    <p>Co-author: <a href="https://eos.org/science-updates/seeing-the-greenland-ice-sheet-through-students-eyes">"Seeing the Greenland Ice Sheet Through Students' Eyes"</a></p>
+	    <p>Participant in <a href="https://www.coursera.org/learn/melting-ice-rising-seas">"Melting Ice, Rising Seas" Coursera Teach-Out</a></p>
+	    <p>I travelled with a research team from U of Michigan, U of Albany, and Virginia Tech to Greenland to conduct climate science research for a 10 day expedition in June 2019. The expedition was led by the Climate and Space Sciences and Engineering department. The expedition was based in Kangerlussuaq, Greenland at the Kangerlussuaq International Science Station (KISS) NSF building. Our research then brought us to the edge of Russell Glacier, where we camped out for two nights. Our expedition also visited Greenland's Summit Station. I gained experience with drones, pyballs, weather balloons, Hobo stream flow, and radiative transfer. Stream flow measurements in the glacial runoff streams produced by Russell Glacier. The team also created a 3D map of Russell Glacier using Phantom4 drone imagery. The expedition sought to introduce students to international and remote fieldwork.  </p>
+	  </section>
+	</section>
+	</h3>
+  	</div>
+
+
+  <!-- FILM&PHOTO -->
+  <div class="section" id="dronework">
+    <h1 id="dronework">Photography and Film</h1>
+    <h3 id="film">Mavic 2 Pro Landscape Capture</h3>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/v9ieI3-0NMA?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h4><a class="show a" target="_blank" id="showtrigger"><span>Show other videos</span></a>
+      <a class="show a" target="_blank" id="hidetrigger" style="display:none;"><span>Hide other videos</span></a>
+    <span>•</span> 
+    <a class="show a" target="_blank" href="https://www.youtube.com/channel/UCTD9Cc4ucv1NJDhXQ1zGbKg"><span>Go to youtube</span></a></h4>
+    <br>
+    <iframe class="collapse" width="640" height="360" src="https://www.youtube.com/embed/r6vDBwLh9pE?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- Freshwater Surf no. 3 -->
+    <br>
+    <iframe class="collapse" width="640" height="360" src="https://www.youtube.com/embed/eOq1Kwpi-7M?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- Saltwater Surf no. 1 -->
+    <br>
+    <iframe class="collapse" width="640" height="360" src="https://www.youtube.com/embed/wyfbUlO2bnA?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  <!-- Paw Paw Prairie Fen -->
+    <br>
+    <iframe class="collapse" width="640" height="360" src="https://www.youtube.com/embed/L6FcsoK8J0E?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- Freshwater Surf no. 2 -->
+    <br>
+    <iframe class="collapse" width="640" height="360" src="https://www.youtube.com/embed/WD3P_rk8S2E?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- Freshwater Surf no. 1 -->
+    <br> 
+    <iframe class="collapse" width="640" height="360" src="https://www.youtube.com/embed/8iOmdUAbBlQ?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- North Shore Afternoon -->
+    
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 id="3d">Mavic 2 Pro 3D Modeling</h3>
+    <div class="sketchfab-embed-wrapper"><iframe title="Valley View" width="640" height="360" src="https://sketchfab.com/models/e63958d30e9c471f80ebfe196c079e09/embed"></iframe></div>
+
+  </div>
+
+
+  <!-- FARM -->
+  <div class="section" id="farm">
+  	<h1>Rancocas Creek Farm</h1>
+  	<iframe title="vimeo-player" src="https://player.vimeo.com/video/468667489" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+  	<p>Volunteer at RCF in its first season, Summer and Fall of 2020. Medford, NJ.</p>
+
+  	<p>Rancocas Creek Farm is a chemical-free, regenerative farm established through donation of 72 acres previously in monoculture soybean. It is run by Pinelands Preservation Alliance (PPA), a volunteer-driven, nonprofit organization committed to the ongoing protection of the New Jersey Pinelands. The project has the following goals:</p>
+  	<ul>
+  		<li><p>Grow Chemical-Free Produce: RCF will not use synthetic chemical herbicides, insecticides, fungicides or fertilizers to grow these foods.  Our goal is to have the farm be a healthy component of the larger ecosystem.</p></li>
+  		<li><p>Manage Stormwater: The farm has historically had flooding issues which at times have caused flooding in Vincentown and the Rancocas Creek.   To better manage stormwater, they have implemented planted over 1,100 native trees and shrubs in the lower, flood-prone areas of the farm and have been adding generous amounts of mulch to these zones, many acres reserved for permanent cover crops such as rye, buckwheat, oats, peas, sorghum-sudangrass, oilseed radish, clover, vetch, and reserved space for native grassland areas.</p></li>
+  		<li><p>Promote Environmental Stewardship: RCF utilizes pizza boxes as mulch which has diverted over 10,000 pizza boxes out of landfills in Burlington County (Project Pizza Box).</p></li>
+  		<li><p>Provide food: The mission of all farms. RCF produce goes to members of the farm CSA, farm markets and restaurants, to the caterer for weddings and events that take place in our barn, and to people in need through partners like NJ Farmers Against Hunger and the Trenton Area Soup kitchen.</p></li>
+  	</ul>
+	<br>
+	<br>
+	<br>
+
+  </div>
+  
+
+
+
+  <!-- TEACH -->
+  <div class="section" id="teach">
+  	<h1>Teaching</h1>
+	<h3 id="utk"><a class="show a" target="_blank" href="https://www.utk.technology/en/home/"><span>United Technologies for Kids</span></a></h3>
+	<p><img class="embed" src="images/utk.jpg"></span></a></p>
+  	<p>During May and June of 2019, I taught a STEM class in Lima, Peru with UTK. United Technologies for Kids (UTK) is a non-profit-startup that promotes STEM education in high schools in developing countries and low-income societies. They work as a platform to transfer knowledge and technology from US universities to schools through  partnerships with student organizations from UC Berkeley, MIT, and the University of Michigan.</p>
+	<p>My co-teacher and I taught for three weeks the basics of electricity, sustainable and socially-minded design, Arduino, CAD, and 3D printing at St. George's.</p>
+	<p>I was active in recruiting for the 2020 cohort, which unfortunately was cancelled due to COVID-19.</p>	
+	<br>
+	<br>
+	<br>
+
+
+	<h3 id="ala"><a class="show a" target="_blank" href="https://www.utk.technology/en/home/"><span>African Leadership Academy</span></a></h3>
+	<p><img class="embed" src="images/ala.jpg"></span></a></p>
+  	<p>In June 2020, I worked with the African Leadership Academy's Summer Engineering Academy as a mentor. SEA was intended to run in South Africa, but the COVID-19 pandemic forced remote participation from the one-week program. Mentors and the leadership came from across the globe to remotely assist, and the students attended from Nigeria and Algeria. I mentored a group of 3 students on an engineering design challenge focused on the COVID-19 pandemic.</p>
+	<br>
+	<br>
+	<br>
+  	
+  </div>
+
+
+  <!-- RESEARCH -->
+<div class="section" id="research">
+  <h1>Research</h1>
+
+  <h3 id="mondrian"><a class="show a" target="_blank" href="https://www.michiganseagrant.org/student-opportunities/michigan-sea-grant-environmental-internship/"><span>Mondrian</span></a></h3>
+<p><img class="embed" src="images/misg.jpg"></span></a></p>
+<p><b>Environmental modelling of native wetland plants to build invasion resistance</b></p>
+<p>Research with Dr. Bill Currie, University of Michigan SEAS. Funded by Michigan Sea Grant Environmental Internship 2019 & 2020</p>
+<p>MONDRIAN is a clonal herbaceous wetland simulator developed by Dr. William Currie and others (Currie et al. 2014). The model simulates plant competition within a native and invaded wetland. I worked with MONDRIAN and Dr. Currie in winter semester 2019 in an independent study, summer 2019 funded by Michigan Sea Grant, and summer 2020 funded by Michigan Sea Grant.</p>
+  <p>I produced two software products for MONDRIAN: a Moran's I spatial statistic calculator and a visualization tool. Both were utilized in further research. My research was focused on the spatial statistics of the biotic resistance of native wetland plant communities, i.e. the question: Does a regularly distributed or clumped native species community compete better against an invasive species? This research ended when it confirmed the null hypothesis that spatial structure as defined in the research had no correlation with biotic resistance. I presented my research with a poster and a presentation at the Michigan Sea Grant 2019 Symposium, and a powerpoint presentation at the Michigan Sea Grant 2020 Symposium.</p>
+<br>
+<br>
+<br>
+
+
+<h3 id="lake-effect"><a class="show a" target="_blank" href="https://noaaglerl.blog/2018/12/06/improving-lake-effect-snow-forecasts-by-making-models-talk-to-each-other/"><span>NOAA/GLERL Lake-Effect Snow Modeling</span></a></h3>
+<p><img class="embed" src="images/lakeeffect.png"></span></a></p>
+<p>Research with Dr. Ayumi Fujisaki-Manome, University of Michigan CLaSP and NOAA GLERL. Summer 2019, Ann Arbor, MI</p>
+  <p>The Great Lakes Coastal Forecasting System feeds into many areas of the local weather report of Michigan: precipitation, wind, and snow. Until a recent grant, it did not couple an atmospheric and land model with a dynamic Great Lakes water model. This was a significant failure when the model was forecasting lake-effect snow, a weather artifact heavily influenced by lake dynamics. NOAA and GLERL researchers have developed a new coupled model to forecast Michigan weather.</p>
+  <p>My first task on this research project was to create a software program to evaluate the forecasting abilities of various new coupled models. I wrote the code in python 3.6 with netCDF inputs. The software compares various model outputs with observations, focused on comparing average snow water equivalent, max snow water equivalent, and location of max snow water equivalent. My second task on this research project was to create a software program to plot the snow water equivalent on a map of the great lakes with easily adjustable polygon placement via lon/lat pairs.</p>
+<br>
+<br>
+<br>
+
+
+<h3 id="northwoods"><a class="show a" target="_blank" href="https://sites.google.com/umich.edu/fischerresearchgroup/home?authuser=0"><span>Northwoods Survey</span></a></h3>
+<p><img class="embed" src="images/northwoods.png"></span></a></p>
+<p>Research with Dr. Paige Fischer, University of Michigan SEAS. 2019, Ann Arbor, MI</p>
+  <p>I competed data entry and data analysis for the Northwoods Survey. The survey data was compiled in Excel. The data analysis was completed in Python 3.6. The survey sought to determine management strategies, climate impacts, and hardships noted by small woodlands owners in the Northwoods region. As well, I assisted in the editing of a grant proposal and tenure portfolio. I also assisted in compiling research for a literature review of Chilean forest management by small forested land owners.</p>
+<br>
+<br>
+<br>
+
+</div>
+
+
+  <!-- EDUCATION -->
   <div class="section" id="education">
     <h1><span>Education</span></h1>
     <p>University of Michigan, College of Engineering 2020, with Honors</p>
@@ -1234,122 +1448,9 @@
 
   </div>
 
-  <!-- Page #3 -->
-  <div class="section" id="trench">
-    <img src="images/trench.png" width="150px">
-    <h1>TrEnCh: Tools for TRanslating ENvironmental CHange into organismal responses</h2>
-    <p>Our goal is to build case studies of how animals are impacted by climate change to improve our approach to climate change biology education, policy, and research.</p>
-    <p></p>
-    <p>I am a research analyst with the Trench Project, a research group in the Department of Biology, University of Washington. My specialty is software engineering for ecology. My main work is with Trench-IR. I have also assisted with Trench-Ed and the TrenchR Modules.</p>
-
-    <!-- Modal #1 -->
-    <h3><a class="show a" aria-haspopup="true"><span>Trench-IR</span></a>
-	<section class="mask" role="dialog"></section>
-	<section class="modal" role="alert">
-	  <a class="close" role="button"></a>
-	  <section class="modal__content">
-	  	<a class="show a" target="_blank" href="https://trench-ir.azurewebsites.net/"><span><img src="images/trenchir.png" width="100px"></span></a>
-	    <p>Lead Developer of TrEnCh-IR. TrEnCh-IR is a repository and set of analysis tools for FLIR infrared images. This repository is intended to advance applications of thermal images in understanding how organisms interact with their thermal environments and resultant patterns of thermal stress. </p>
-		<p>TrEnCh-IR It is built on Azure with Block Blob Storage, Node.js, Bootstrap, {{mustache}}, and exiftool. TrEnCh-IR services are in collaboration with ThermImageR and the Thermal Ecology Group.</p>
-		<a class="show a" target="_blank" href="https://trench-ir.azurewebsites.net/"><span>Go to TrEnCh-IR</span></a>
-	  </section>
-	</section>
-
-	<span>•</span>
-
-	<!-- Modal #2 -->
-	<a class="show a" aria-haspopup="true"><span>Trench-Ed</span></a>
-	<section class="mask" role="dialog"></section>
-	<section class="modal" role="alert">
-	  <a class="close" role="button"></a>
-	  <section class="modal__content">
-	    <a class="show a" target="_blank" href="https://trench-ed.github.io/#"><span><img src="images/trenched.png" width="100px"></span></a>
-	    <p>TrEnCh-Ed is the educational branch of The TrEnCh Project, which builds computational and visualization tools to Translate Environmental Change into organismal responses. TrEnCh-Ed is designed to be utilized in high school science classrooms, bringing the cutting edge science of university climate change research to the next generation of scientists.</p>
-
-		<p>I have worked with the Dr. Buckley to update the website and visualizations, add teacher resources and educational standards, create answer keys for lesson plans, and assist the readying of the curriculum for use in the 2020 school year. I co-created the Marine Range Shifts visualization.</p>
-
-		<a class="show a" target="_blank" href="https://trench-ed.github.io/#"><span>Go to TrEnCh-Ed</span></a>
-	  </section>
-	</section>
-
-	<span>•</span>
-
-	<!-- Modal #3 -->
-	<a class="show a" aria-haspopup="true"><span>TrenchR Modules</span></a>
-	<section class="mask" role="dialog"></section>
-	<section class="modal" role="alert">
-	  <a class="close" role="button"></a>
-	  <section class="modal__content">
-	    <a class="show a" target="_blank" href="https://bookdown.org/huckley/Physical_Processes_In_Ecosystems/"><span><img src="images/trenchr.png" width="100px"></span></a>
-	    <p>TrEnChR Modules is the educational guide to biophysical modeling using the TrenchR package. The modules are hosted on Bookdown with embedded R code to demonstrate the skills available in the R package. I helped edit the modules.</p>
-	    <a class="show a" target="_blank" href="https://bookdown.org/huckley/Physical_Processes_In_Ecosystems/"><span>Go to the TrEnChR Modules</span></a>
-	  </section>
-	</section>
-	</h3>
 
 
-  </div>
-
-  <!-- Page #4 -->
-  <div class="section" id="wallenberg">
-    <h1>The Wallenberg Fellowship</h1>
-	<img class="wallenberg" src="images/wallenberg.jpg" style="float:left;width:auto;height:60vh;padding:20px;">
-	<p>Beginning in June 2021, I will embark on my Wallenberg journey. I was fortunate in being selected for the Wallenberg Fellowship, which has granted me this unique opportunity.</p>
-
-	<p>Greenland was illuminated to me by my participation in the 2019 Greenland Expedition hosted by faculty from the Climate and Space Sciences and Engineering Department. On the expedition, we learned about remote fieldwork camping alongside an ice sheet and witnessed the warming climate pointed to by native Greenlanders and visiting scientists. I fell in love with the island of ice.</p>
-
-	<p>The Wallenberg Fellowship allows me to return and work alongside Greenlandic organizations for a full year. Qaqortoq, a town of three thousand and the fourth-largest town in Greenland, will be the main location of my work. While in the area, I will be residing partially at Isortoq Reindeer Station. While at the reindeer farm I will be working for my stay, including being both a helpful farm hand and an American contact. With my hopes of sustainable living in the future, I look forward to assisting with the day-to-day of living off the land in Greenland, including fishing, herding, gardening, food preparation, winter storage, and farm maintenance.</p>
-
-	<p>I will work with UNESCO World Heritage Kujataa and Innovation Southern Greenland in Qaqortoq. Greenland's intense remoteness leads to unfamiliarity with the deep history of the island and its inhabitants of 90% native Inuit Greenlanders. We hope to bridge this divide by creating 3-D models and online learning experiences of their key ruins and natural sites conserved by UNESCO Kujataa. I will also be conducting a vegetation survey of a nearby island recently surrounded by mines, to allow monitoring of the effects of mining pollution on arctic ecosystems.</p>
-
-	<!-- Modal #1 -->
-	<h3><a class="show a" aria-haspopup="true"><span>2019 Greenland Expedition</span></a>
-	<section class="mask" role="dialog"></section>
-	<section class="modal" role="alert">
-	  <a class="close" role="button"></a>
-	  <section class="modal__content">
-	    <p>Co-author: <a href="https://eos.org/science-updates/seeing-the-greenland-ice-sheet-through-students-eyes">"Seeing the Greenland Ice Sheet Through Students' Eyes"</a></p>
-	    <p>Participant in <a href="https://www.coursera.org/learn/melting-ice-rising-seas">"Melting Ice, Rising Seas" Coursera Teach-Out</a></p>
-	    <p>I travelled with a research team from U of Michigan, U of Albany, and Virginia Tech to Greenland to conduct climate science research for a 10 day expedition in June 2019. The expedition was led by the Climate and Space Sciences and Engineering department. The expedition was based in Kangerlussuaq, Greenland at the Kangerlussuaq International Science Station (KISS) NSF building. Our research then brought us to the edge of Russell Glacier, where we camped out for two nights. Our expedition also visited Greenland's Summit Station. I gained experience with drones, pyballs, weather balloons, Hobo stream flow, and radiative transfer. Stream flow measurements in the glacial runoff streams produced by Russell Glacier. The team also created a 3D map of Russell Glacier using Phantom4 drone imagery. The expedition sought to introduce students to international and remote fieldwork.  </p>
-	  </section>
-	</section>
-	</h3>
-  	</div>
-
-  <!-- Page #5 -->
-    <div class="section" id="dronework">
-  	<h1 id="dronework">GIS and Dronework</h1>
-  	<h3 id="film">Mavic 2 Pro Landscape Capture</h3>
-  	<iframe width="640" height="360" src="https://www.youtube.com/embed/v9ieI3-0NMA?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  	<h4><a class="show a" target="_blank" id="showtrigger"><span>Show other videos</span></a>
-  		<a class="show a" target="_blank" id="hidetrigger" style="display:none;"><span>Hide other videos</span></a>
-  	<span>•</span> 
-  	<a class="show a" target="_blank" href="https://www.youtube.com/channel/UCTD9Cc4ucv1NJDhXQ1zGbKg"><span>Go to youtube</span></a></h4>
-  	<br>
-  	<iframe class="collapse" width="640" height="360" src="https://www.youtube.com/embed/r6vDBwLh9pE?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- Freshwater Surf no. 3 -->
-  	<br>
-  	<iframe class="collapse" width="640" height="360" src="https://www.youtube.com/embed/eOq1Kwpi-7M?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- Saltwater Surf no. 1 -->
-  	<br>
-  	<iframe class="collapse" width="640" height="360" src="https://www.youtube.com/embed/wyfbUlO2bnA?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  <!-- Paw Paw Prairie Fen -->
-  	<br>
-  	<iframe class="collapse" width="640" height="360" src="https://www.youtube.com/embed/L6FcsoK8J0E?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- Freshwater Surf no. 2 -->
-  	<br>
-  	<iframe class="collapse" width="640" height="360" src="https://www.youtube.com/embed/WD3P_rk8S2E?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- Freshwater Surf no. 1 -->
-  	<br> 
-  	<iframe class="collapse" width="640" height="360" src="https://www.youtube.com/embed/8iOmdUAbBlQ?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- North Shore Afternoon -->
-  	
-
-  	<br>
-  	<br>
-  	<br>
-  	<br>
-  	<h3 id="3d">Mavic 2 Pro 3D Modeling</h3>
-  	<div class="sketchfab-embed-wrapper"><iframe title="Valley View" width="640" height="360" src="https://sketchfab.com/models/e63958d30e9c471f80ebfe196c079e09/embed"></iframe></div>
-
-  </div>
-  
-
-  <!-- Page #6 -->
+  <!-- SKILLS -->
   <div class="section" id="skills">
   	<h1>Technologies and Skills</h1>
   	<h3>Software Engineering for Ecology</h3>
@@ -1364,84 +1465,10 @@
 	<p>CME Group: Summer 2017. Chicago, IL.</p>
   </div>
 
-   <!-- Page #7 -->
-<div class="section" id="research">
-  	<h1>Research</h1>
-
-  	<h3 id="mondrian"><a class="show a" target="_blank" href="https://www.michiganseagrant.org/student-opportunities/michigan-sea-grant-environmental-internship/"><span>Mondrian</span></a></h3>
-	<p><img class="embed" src="images/misg.jpg"></span></a></p>
-	<p><b>Environmental modelling of native wetland plants to build invasion resistance</b></p>
-	<p>Research with Dr. Bill Currie, University of Michigan SEAS. Funded by Michigan Sea Grant Environmental Internship 2019 & 2020</p>
-	<p>MONDRIAN is a clonal herbaceous wetland simulator developed by Dr. William Currie and others (Currie et al. 2014). The model simulates plant competition within a native and invaded wetland. I worked with MONDRIAN and Dr. Currie in winter semester 2019 in an independent study, summer 2019 funded by Michigan Sea Grant, and summer 2020 funded by Michigan Sea Grant.</p>
-  	<p>I produced two software products for MONDRIAN: a Moran's I spatial statistic calculator and a visualization tool. Both were utilized in further research. My research was focused on the spatial statistics of the biotic resistance of native wetland plant communities, i.e. the question: Does a regularly distributed or clumped native species community compete better against an invasive species? This research ended when it confirmed the null hypothesis that spatial structure as defined in the research had no correlation with biotic resistance. I presented my research with a poster and a presentation at the Michigan Sea Grant 2019 Symposium, and a powerpoint presentation at the Michigan Sea Grant 2020 Symposium.</p>
-	<br>
-	<br>
-	<br>
+   
 
 
-	<h3 id="lake-effect"><a class="show a" target="_blank" href="https://noaaglerl.blog/2018/12/06/improving-lake-effect-snow-forecasts-by-making-models-talk-to-each-other/"><span>NOAA/GLERL Lake-Effect Snow Modeling</span></a></h3>
-	<p><img class="embed" src="images/lakeeffect.png"></span></a></p>
-	<p>Research with Dr. Ayumi Fujisaki-Manome, University of Michigan CLaSP and NOAA GLERL. Summer 2019, Ann Arbor, MI</p>
-  	<p>The Great Lakes Coastal Forecasting System feeds into many areas of the local weather report of Michigan: precipitation, wind, and snow. Until a recent grant, it did not couple an atmospheric and land model with a dynamic Great Lakes water model. This was a significant failure when the model was forecasting lake-effect snow, a weather artifact heavily influenced by lake dynamics. NOAA and GLERL researchers have developed a new coupled model to forecast Michigan weather.</p>
-  	<p>My first task on this research project was to create a software program to evaluate the forecasting abilities of various new coupled models. I wrote the code in python 3.6 with netCDF inputs. The software compares various model outputs with observations, focused on comparing average snow water equivalent, max snow water equivalent, and location of max snow water equivalent. My second task on this research project was to create a software program to plot the snow water equivalent on a map of the great lakes with easily adjustable polygon placement via lon/lat pairs.</p>
-	<br>
-	<br>
-	<br>
-
-
-	<h3 id="northwoods"><a class="show a" target="_blank" href="https://sites.google.com/umich.edu/fischerresearchgroup/home?authuser=0"><span>Northwoods Survey</span></a></h3>
-	<p><img class="embed" src="images/northwoods.png"></span></a></p>
-	<p>Research with Dr. Paige Fischer, University of Michigan SEAS. 2019, Ann Arbor, MI</p>
-  	<p>I competed data entry and data analysis for the Northwoods Survey. The survey data was compiled in Excel. The data analysis was completed in Python 3.6. The survey sought to determine management strategies, climate impacts, and hardships noted by small woodlands owners in the Northwoods region. As well, I assisted in the editing of a grant proposal and tenure portfolio. I also assisted in compiling research for a literature review of Chilean forest management by small forested land owners.</p>
-	<br>
-	<br>
-	<br>
-
-  </div>
-
-  <!-- Page #8 -->
-  <div class="section" id="farm">
-  	<h1>Rancocas Creek Farm</h1>
-  	<iframe title="vimeo-player" src="https://player.vimeo.com/video/468667489" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-  	<p>Volunteer at RCF in its first season, Summer and Fall of 2020. Medford, NJ.</p>
-
-  	<p>Rancocas Creek Farm is a chemical-free, regenerative farm established through donation of 72 acres previously in monoculture soybean. It is run by Pinelands Preservation Alliance (PPA), a volunteer-driven, nonprofit organization committed to the ongoing protection of the New Jersey Pinelands. The project has the following goals:</p>
-  	<ul>
-  		<li><p>Grow Chemical-Free Produce: RCF will not use synthetic chemical herbicides, insecticides, fungicides or fertilizers to grow these foods.  Our goal is to have the farm be a healthy component of the larger ecosystem.</p></li>
-  		<li><p>Manage Stormwater: The farm has historically had flooding issues which at times have caused flooding in Vincentown and the Rancocas Creek.   To better manage stormwater, they have implemented planted over 1,100 native trees and shrubs in the lower, flood-prone areas of the farm and have been adding generous amounts of mulch to these zones, many acres reserved for permanent cover crops such as rye, buckwheat, oats, peas, sorghum-sudangrass, oilseed radish, clover, vetch, and reserved space for native grassland areas.</p></li>
-  		<li><p>Promote Environmental Stewardship: RCF utilizes pizza boxes as mulch which has diverted over 10,000 pizza boxes out of landfills in Burlington County (Project Pizza Box).</p></li>
-  		<li><p>Provide food: The mission of all farms. RCF produce goes to members of the farm CSA, farm markets and restaurants, to the caterer for weddings and events that take place in our barn, and to people in need through partners like NJ Farmers Against Hunger and the Trenton Area Soup kitchen.</p></li>
-  	</ul>
-	<br>
-	<br>
-	<br>
-
-  </div>
-
-
-  <!-- Page #9 -->
-  <div class="section" id="teach">
-  	<h1>Teaching</h1>
-	<h3 id="utk"><a class="show a" target="_blank" href="https://www.utk.technology/en/home/"><span>United Technologies for Kids</span></a></h3>
-	<p><img class="embed" src="images/utk.jpg"></span></a></p>
-  	<p>During May and June of 2019, I taught a STEM class in Lima, Peru with UTK. United Technologies for Kids (UTK) is a non-profit-startup that promotes STEM education in high schools in developing countries and low-income societies. They work as a platform to transfer knowledge and technology from US universities to schools through  partnerships with student organizations from UC Berkeley, MIT, and the University of Michigan.</p>
-	<p>My co-teacher and I taught for three weeks the basics of electricity, sustainable and socially-minded design, Arduino, CAD, and 3D printing at St. George's.</p>
-	<p>I was active in recruiting for the 2020 cohort, which unfortunately was cancelled due to COVID-19.</p>	
-	<br>
-	<br>
-	<br>
-
-
-	<h3 id="ala"><a class="show a" target="_blank" href="https://www.utk.technology/en/home/"><span>African Leadership Academy</span></a></h3>
-	<p><img class="embed" src="images/ala.jpg"></span></a></p>
-  	<p>In June 2020, I worked with the African Leadership Academy's Summer Engineering Academy as a mentor. SEA was intended to run in South Africa, but the COVID-19 pandemic forced remote participation from the one-week program. Mentors and the leadership came from across the globe to remotely assist, and the students attended from Nigeria and Algeria. I mentored a group of 3 students on an engineering design challenge focused on the COVID-19 pandemic.</p>
-	<br>
-	<br>
-	<br>
-  	
-  </div>
-
-  <!-- Page #10 -->
+  <!-- MAP -->
    <div id="map"></div>
 </div>
 
