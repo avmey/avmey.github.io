@@ -520,3 +520,20 @@ span {
     padding: 0px;
     letter-spacing: 0px;
 }
+
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 76%;
+  margin-left: 12%;
+  height: 76%;
+}
