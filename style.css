@@ -211,6 +211,9 @@ body {
 .section:nth-child(9) {
   background: #B1C6C9;
 }
+.section:nth-child(10) {
+  background: #E6A228;
+}
 
 .collapse {
   display: none;
