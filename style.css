@@ -60,7 +60,7 @@ footer {
   position: fixed;
   height: auto;
   width: 100%;
-  background: #b1c6c9;
+  background: #abcab8;
   text-align: center;
   z-index: 100;
 }
@@ -286,6 +286,7 @@ span {
   height: 85vh;
   width: 100%;
   opacity: 0.9;
+  padding-left: 5%;
 }
 
 .path {
@@ -561,5 +562,9 @@ li {
   .videoWrapper iframe {
     width: 280px;
     height: 158px;
+  }
+  .section {
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
